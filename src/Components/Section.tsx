@@ -1,4 +1,6 @@
 import { ReactNode } from "react";
+import { useTab } from "../Providers/TabProvider";
+import { useDogs } from "../Providers/DogProvider";
 
 export const Section = ({
   label,
@@ -8,6 +10,13 @@ export const Section = ({
   label: string;
   children: ReactNode;
 }) => {
+  const { dogs } = useDogs();
+  const { tab, setTab } = useTab();
+
+  const favoritedCount = dogs.filter((dog) => dog.isFavorite === true).length;
+  const unfavoritedCount = dogs.filter(
+    (dog) => dog.isFavorite === false
+  ).length;
   return (
     <section id="main-section">
       <div className="container-header">
@@ -15,27 +24,31 @@ export const Section = ({
         <div className="selectors">
           {/* This should display the favorited count */}
           <div
-            className={`selector ${"active"}`}
+            className={`selector ${tab === "favorite-dogs" ? "active" : ""}`}
             onClick={() => {
-              alert("click favorited");
+              tab === "favorite-dogs"
+                ? setTab("all-dogs")
+                : setTab("favorite-dogs");
             }}
           >
-            favorited ( {0} )
+            favorited ( {favoritedCount} )
           </div>
 
           {/* This should display the unfavorited count */}
           <div
-            className={`selector ${""}`}
+            className={`selector ${tab === "unfavorite-dogs" ? "active" : ""}`}
             onClick={() => {
-              alert("click unfavorited");
+              tab === "unfavorite-dogs"
+                ? setTab("all-dogs")
+                : setTab("unfavorite-dogs");
             }}
           >
-            unfavorited ( {10} )
+            unfavorited ( {unfavoritedCount} )
           </div>
           <div
-            className={`selector ${""}`}
+            className={`selector ${tab === "create-dog" ? "active" : ""}`}
             onClick={() => {
-              alert("clicked create dog");
+              tab === "create-dog" ? setTab("all-dogs") : setTab("create-dog");
             }}
           >
             create dog

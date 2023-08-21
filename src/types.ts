@@ -9,3 +9,14 @@ export const dogSchema = z.object({
 });
 
 export type Dog = z.infer<typeof dogSchema>;
+
+export type TDogsContext = {
+  dogs: Dog[];
+  setDogs: (input: Dog[]) => void;
+};
+
+export type Ttab =
+  | "all-dogs"
+  | "favorite-dogs"
+  | "unfavorite-dogs"
+  | "create-dog";

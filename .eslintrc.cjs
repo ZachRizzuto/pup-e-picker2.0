@@ -13,7 +13,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: true,
+    project: './tsconfig.json',
     tsconfigRootDir: __dirname,
   },
   plugins: ['react-refresh'],
@@ -24,4 +24,5 @@ module.exports = {
     ],
     '@typescript-eslint/no-non-null-assertion': 'off',
   },
+  "include": ["src"],
 }

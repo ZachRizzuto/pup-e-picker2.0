@@ -1,130 +1,123 @@
 {
   "dogs": [
     {
-      "name": "Jonatan",
-      "image": "/src/assets/boxer.png",
-      "description": "Shoes after Dollar Marketing female generating Diesel",
+      "name": "Yasmine",
+      "image": "/public/assets/boxer.png",
+      "description": "Southeast efficient idle Cotton engineer female shrilly Liaison",
       "isFavorite": true,
       "id": 0
     },
     {
-      "name": "Anthony",
-      "image": "/src/assets/cowardly.png",
-      "description": "plum Savings female Ghana programming solutions miniaturise",
+      "name": "Abdiel",
+      "image": "/public/assets/boxer.png",
+      "description": "though violet Kids West generation users user Loan",
       "isFavorite": true,
       "id": 1
     },
     {
-      "name": "Ana",
-      "image": "/src/assets/boxer.png",
-      "description": "Analyst function withdrawal United while",
+      "name": "Adan",
+      "image": "/public/assets/boxer.png",
+      "description": "Synergistic sans provide Mexico moderator ipsam whose Dysprosium",
       "isFavorite": false,
-      "id": 4
-    },
-    {
-      "name": "Alfred",
-      "image": "/src/assets/cowardly.png",
-      "description": "Northwest DRAM henry applications South",
-      "isFavorite": false,
-      "id": 5
-    },
-    {
-      "name": "Violette",
-      "image": "/src/assets/boxer.png",
-      "description": "embrace Web Southwest perspiciatis though",
-      "isFavorite": true,
       "id": 6
     },
     {
-      "name": "Kenton",
-      "image": "/src/assets/cowardly.png",
-      "description": "Bedfordshire Human tempora Managed Electronic Directives Nissan expedite",
+      "name": "Josefina",
+      "image": "/public/assets/boxer.png",
+      "description": "Ferrari oh Pop Arizona double Hatchback methodologies weber",
       "isFavorite": true,
       "id": 7
     },
     {
-      "name": "Asa",
-      "image": "/src/assets/dalmation.png",
-      "description": "Minivan Neither Road Movies radian",
-      "isFavorite": false,
+      "name": "Art",
+      "image": "/public/assets/boxer.png",
+      "description": "Regional Jeep optical likewise since faraway Northwest Rhode",
+      "isFavorite": true,
       "id": 8
     },
     {
-      "name": "Nicolas",
-      "image": "/src/assets/chihuahua.avif",
-      "description": "an Savings brink transmit card",
+      "name": "Jaylen",
+      "image": "/public/assets/boxer.png",
+      "description": "Implementation maxime Northwest RAM deliverables Diesel Gourde virtual",
       "isFavorite": false,
       "id": 9
     },
     {
-      "name": "Elton",
-      "image": "/src/assets/blue-heeler.png",
-      "description": "Nihonium Electronic Nissan Metal because Computer white",
-      "isFavorite": false,
+      "name": "Christina",
+      "image": "/public/assets/dalmation.png",
+      "description": "psst Touring Fritsch Borders that Bacon fast and",
+      "isFavorite": true,
       "id": 10
     },
     {
-      "name": "Dewayne",
-      "image": "/src/assets/dalmation.png",
-      "description": "Security override firewall Southeast apropos Usability orchid barrel",
-      "isFavorite": false,
+      "name": "Cathryn",
+      "image": "/public/assets/cowardly.png",
+      "description": "networks reinvent Swedish South Chicken",
+      "isFavorite": true,
       "id": 11
     },
     {
-      "name": "Art",
-      "image": "/src/assets/blue-heeler.png",
-      "description": "Global ha Genderflux payment Metal pixel Money",
+      "name": "Caroline",
+      "image": "/public/assets/boxer.png",
+      "description": "ick payment British International balcony",
       "isFavorite": true,
       "id": 12
     },
     {
-      "name": "Sebastian",
-      "image": "/src/assets/boxer.png",
-      "description": "Associate Gasoline Savings Hybrid Developer",
-      "isFavorite": true,
+      "name": "Kody",
+      "image": "/public/assets/boxer.png",
+      "description": "Corporate National garrotte totam Bacon as global Chrysler",
+      "isFavorite": false,
       "id": 13
     },
     {
-      "name": "Lambert",
-      "image": "/src/assets/chihuahua.avif",
-      "description": "drive reek Marvin compress executive Coordinator Track bluetooth",
+      "name": "Giovanni",
+      "image": "/public/assets/chihuahua.avif",
+      "description": "slowly Berkshire convergence methodologies Minivan synergistic interfaces",
       "isFavorite": false,
       "id": 14
     },
     {
-      "name": "Kris",
-      "image": "/src/assets/blue-heeler.png",
-      "description": "Beryllium Chevrolet partnerships focus Southeast Poland salmon",
-      "isFavorite": true,
+      "name": "Ottis",
+      "image": "/public/assets/chihuahua.avif",
+      "description": "tan Soft internet Hryvnia Outdoors Metal Incredible",
+      "isFavorite": false,
       "id": 15
     },
     {
-      "name": "Trudie",
-      "image": "/src/assets/boxer.png",
-      "description": "connecting blue National Movies Interactions ack Tandem Shirt",
+      "name": "Leatha",
+      "image": "/public/assets/boxer.png",
+      "description": "calculate pascal Texas application parsing Chips Malaysia",
       "isFavorite": false,
       "id": 16
     },
     {
-      "name": "Meaghan",
-      "image": "/src/assets/dalmation.png",
-      "description": "lux Manager North applications Rufiyaa",
-      "isFavorite": false,
+      "name": "Kamren",
+      "image": "/public/assets/corgi.png",
+      "description": "Soft withdrawal generate Minivan Interactions Southwest Mouse",
+      "isFavorite": true,
       "id": 17
     },
     {
-      "name": "Vallie",
-      "image": "/src/assets/chihuahua.avif",
-      "description": "Lead synergistic noisy operating Passenger female Salad Rubber",
+      "name": "Berta",
+      "image": "/public/assets/cowardly.png",
+      "description": "Chair Delaware Northwest foreground Hampshire hmph orange tame",
       "isFavorite": true,
       "id": 18
     },
     {
-      "name": "Newton",
-      "image": "/src/assets/blue-heeler.png",
-      "description": "Planner maxime invoice ROI granular ouch Franc",
-      "isFavorite": true,
+      "name": "Devan",
+      "image": "/public/assets/boxer.png",
+      "description": "unwritten Shoes Total whose withdrawal Latvia becquerel Tools",
+      "isFavorite": false,
       "id": 19
+    },
+    {
+      "name": "Dog",
+      "description": "Dog",
+      "image": "/assets/boxer.jpeg",
+      "isFavorite": false,
+      "id": 20
     }
   ]
 }
