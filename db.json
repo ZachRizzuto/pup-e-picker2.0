@@ -4,36 +4,22 @@
       "name": "Yasmine",
       "image": "/public/assets/boxer.png",
       "description": "Southeast efficient idle Cotton engineer female shrilly Liaison",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 0
     },
     {
       "name": "Abdiel",
       "image": "/public/assets/boxer.png",
       "description": "though violet Kids West generation users user Loan",
-      "isFavorite": true,
-      "id": 1
-    },
-    {
-      "name": "Adan",
-      "image": "/public/assets/boxer.png",
-      "description": "Synergistic sans provide Mexico moderator ipsam whose Dysprosium",
       "isFavorite": false,
-      "id": 6
+      "id": 1
     },
     {
       "name": "Josefina",
       "image": "/public/assets/boxer.png",
       "description": "Ferrari oh Pop Arizona double Hatchback methodologies weber",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 7
-    },
-    {
-      "name": "Art",
-      "image": "/public/assets/boxer.png",
-      "description": "Regional Jeep optical likewise since faraway Northwest Rhode",
-      "isFavorite": true,
-      "id": 8
     },
     {
       "name": "Jaylen",
@@ -46,7 +32,7 @@
       "name": "Christina",
       "image": "/public/assets/dalmation.png",
       "description": "psst Touring Fritsch Borders that Bacon fast and",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 10
     },
     {
@@ -60,7 +46,7 @@
       "name": "Caroline",
       "image": "/public/assets/boxer.png",
       "description": "ick payment British International balcony",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 12
     },
     {
@@ -95,14 +81,14 @@
       "name": "Kamren",
       "image": "/public/assets/corgi.png",
       "description": "Soft withdrawal generate Minivan Interactions Southwest Mouse",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 17
     },
     {
       "name": "Berta",
       "image": "/public/assets/cowardly.png",
       "description": "Chair Delaware Northwest foreground Hampshire hmph orange tame",
-      "isFavorite": true,
+      "isFavorite": false,
       "id": 18
     },
     {
@@ -118,6 +104,13 @@
       "image": "/assets/boxer.jpeg",
       "isFavorite": false,
       "id": 20
+    },
+    {
+      "name": "DODOD",
+      "description": "DODD",
+      "image": "/assets/cowardly.png",
+      "isFavorite": false,
+      "id": 21
     }
   ]
 }
