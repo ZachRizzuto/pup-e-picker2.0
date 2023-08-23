@@ -15,83 +15,6 @@
       "id": 1
     },
     {
-      "name": "Josefina",
-      "image": "/public/assets/boxer.png",
-      "description": "Ferrari oh Pop Arizona double Hatchback methodologies weber",
-      "isFavorite": false,
-      "id": 7
-    },
-    {
-      "name": "Jaylen",
-      "image": "/public/assets/boxer.png",
-      "description": "Implementation maxime Northwest RAM deliverables Diesel Gourde virtual",
-      "isFavorite": false,
-      "id": 9
-    },
-    {
-      "name": "Christina",
-      "image": "/public/assets/dalmation.png",
-      "description": "psst Touring Fritsch Borders that Bacon fast and",
-      "isFavorite": false,
-      "id": 10
-    },
-    {
-      "name": "Cathryn",
-      "image": "/public/assets/cowardly.png",
-      "description": "networks reinvent Swedish South Chicken",
-      "isFavorite": true,
-      "id": 11
-    },
-    {
-      "name": "Caroline",
-      "image": "/public/assets/boxer.png",
-      "description": "ick payment British International balcony",
-      "isFavorite": false,
-      "id": 12
-    },
-    {
-      "name": "Kody",
-      "image": "/public/assets/boxer.png",
-      "description": "Corporate National garrotte totam Bacon as global Chrysler",
-      "isFavorite": false,
-      "id": 13
-    },
-    {
-      "name": "Giovanni",
-      "image": "/public/assets/chihuahua.avif",
-      "description": "slowly Berkshire convergence methodologies Minivan synergistic interfaces",
-      "isFavorite": false,
-      "id": 14
-    },
-    {
-      "name": "Ottis",
-      "image": "/public/assets/chihuahua.avif",
-      "description": "tan Soft internet Hryvnia Outdoors Metal Incredible",
-      "isFavorite": false,
-      "id": 15
-    },
-    {
-      "name": "Leatha",
-      "image": "/public/assets/boxer.png",
-      "description": "calculate pascal Texas application parsing Chips Malaysia",
-      "isFavorite": false,
-      "id": 16
-    },
-    {
-      "name": "Kamren",
-      "image": "/public/assets/corgi.png",
-      "description": "Soft withdrawal generate Minivan Interactions Southwest Mouse",
-      "isFavorite": false,
-      "id": 17
-    },
-    {
-      "name": "Berta",
-      "image": "/public/assets/cowardly.png",
-      "description": "Chair Delaware Northwest foreground Hampshire hmph orange tame",
-      "isFavorite": false,
-      "id": 18
-    },
-    {
       "name": "Devan",
       "image": "/public/assets/boxer.png",
       "description": "unwritten Shoes Total whose withdrawal Latvia becquerel Tools",
@@ -109,7 +32,7 @@
       "name": "DODOD",
       "description": "DODD",
       "image": "/assets/cowardly.png",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": 21
     }
   ]

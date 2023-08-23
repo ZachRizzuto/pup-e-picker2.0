@@ -14,11 +14,21 @@ const postDog = (dog: Omit<Dog, "id">): Promise<Dog> => {
   }).then((res): Promise<Dog> => res.json());
 };
 
-const deleteDogRequest = (id: number) => {
+const deleteDogRequest = (
+  id: number,
+  dogs: Dog[],
+  setDogs: (input: Dog[]) => void
+) => {
+  setDogs(dogs.filter((dog) => dog.id != id));
+
   return fetch(`${baseUrl}/dogs/${id}`, {
     method: "DELETE",
   })
-    .then((res) => res.json())
+    .then((res) => {
+      if (!res.ok) {
+        setDogs(dogs);
+      } else return;
+    })
     .catch((err) => console.log(err));
 };
 

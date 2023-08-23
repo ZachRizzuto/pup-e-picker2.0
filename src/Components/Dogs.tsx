@@ -41,11 +41,11 @@ export const Dogs = () =>
               )
             }
             onTrashIconClick={() => {
-              setIsLoading(true);
-              Requests.deleteDogRequest(dog.id)
+              Requests.deleteDogRequest(dog.id, dogs, (dogs: Dog[]) =>
+                setDogs(dogs)
+              )
                 .then(() => Requests.getAllDogs())
                 .then((dogs) => setDogs(dogs))
-                .then(() => setIsLoading(false))
                 .catch((err) => console.log(err));
             }}
             isLoading={isLoading}
