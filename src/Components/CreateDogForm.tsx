@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { dogPictures } from "../dog-pictures";
-import { Requests } from "../api";
-import toast from "react-hot-toast";
-import { Dog } from "../types";
 import { useDogs } from "../Providers/DogProvider";
-import { useLoading } from "../Providers/IsLoadingProvider";
 
 export const CreateDogForm = () =>
   // no props allowed
@@ -17,29 +13,21 @@ export const CreateDogForm = () =>
       setDogName("");
       setDogDesc("");
     };
-    const { setDogs } = useDogs();
-    const { isLoading, setIsLoading } = useLoading();
+    const { postDog, isLoading } = useDogs();
     return (
       <form
         action=""
         id="create-dog-form"
         onSubmit={(e) => {
           e.preventDefault();
-          setIsLoading(true);
-          Requests.postDog({
+          postDog({
             name: dogName,
             description: dogDesc,
             image: selectedImage,
             isFavorite: false,
           })
-            .then(() => Requests.getAllDogs())
-            .then((dogs) => setDogs(dogs))
-            .then(() => setIsLoading(false))
-            .then(() => {
-              toast.success("Dog created!");
-            })
+            .then(() => resetState())
             .catch((err) => console.log(err));
-          resetState();
         }}
       >
         <h4>Create a New Dog</h4>

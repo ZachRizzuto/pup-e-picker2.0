@@ -4,36 +4,22 @@
       "name": "Yasmine",
       "image": "/public/assets/boxer.png",
       "description": "Southeast efficient idle Cotton engineer female shrilly Liaison",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": 0
     },
     {
       "name": "Abdiel",
       "image": "/public/assets/boxer.png",
       "description": "though violet Kids West generation users user Loan",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": 1
     },
     {
-      "name": "Devan",
-      "image": "/public/assets/boxer.png",
-      "description": "unwritten Shoes Total whose withdrawal Latvia becquerel Tools",
-      "isFavorite": false,
-      "id": 19
-    },
-    {
-      "name": "Dog",
-      "description": "Dog",
-      "image": "/assets/boxer.jpeg",
-      "isFavorite": false,
-      "id": 20
-    },
-    {
-      "name": "DODOD",
-      "description": "DODD",
-      "image": "/assets/cowardly.png",
+      "name": "asd",
+      "image": "/assets/blue-heeler.png",
+      "description": "asd",
       "isFavorite": true,
-      "id": 21
+      "id": 25
     }
   ]
 }
